@@ -33,7 +33,7 @@ plantmanager foi desenvolvido utilizando as seguidas ferramentas:
 
 ## 🛠️ Como executar o projeto
 
-Para rodar esta aplicação, você deve ter o Git, NodeJS e Expo instalados em sua máquina. Em seguida, abra o Terminal do seu Windows, Linux ou MAC, navegue até a pasta do projeto e digite o comando de start da aplicação. Veja abaixo:
+Para rodar esta aplicação, você deve ter o [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [NodeJS](https://nodejs.org/en/download/), [Expo](https://docs.expo.io/get-started/installation/) e [Json-Server](https://www.npmjs.com/package/json-server) instalados em sua máquina. Em seguida, abra o Terminal do seu Windows, Linux ou MAC, navegue até a pasta do projeto e digite o comando de start da aplicação. Veja abaixo:
 
 ```bash
 # clone o repositório
@@ -48,19 +48,20 @@ $ npm install
 # rode o servidor em sua máquina
 $ expo start
 
+# abra outro terminal e digite
+$ json-server ./src/services/server.json --host insira_aqui_o_seu_ip_disponivel_na_pagina_do_expo --port 3333 --delay 700
+
 # com a mensagem de servidor ativo no terminal ele iniciará e você poderá executar usando o seu mobile ou emulador. 
 ```
 
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/IhQRtrOZdu3TrvkPYREzOy/PlantManager/duplicate). É necessário ter uma conta no [Figma](https://figma.com) para acessá-lo.
-
-
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/IhQRtrOZdu3TrvkPYREzOy/PlantManager/duplicate).
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by [Rocketseat](https://rocketseat.com.br) & [Felipe Gouvêa](https://linkedin.com/in/fgouvea10)
+Feito com ♥ por [Felipe Gouvêa](https://linkedin.com/in/fgouvea10)
